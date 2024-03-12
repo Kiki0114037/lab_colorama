@@ -22,6 +22,11 @@
 			  Do you like it? If not, 
 				<a href="{% url 'color_app:random_color' %}">choose another</a>.
 			</p>
+      <p>or</p>
+      <p>
+        <a href="{% url 'color_app:index' %}">
+          Go back to home page
+        </a>
       {% include "color_app/swatch.html" %}
     </div>
   </div>
